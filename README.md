@@ -1,31 +1,7 @@
 # ReadMe Generator
+
  
-## description
-
-Easy tool for generating  README files for your projects.
-
-## Installation
-
-Download this code from directory
-
-## Usage
-
-In terminal or bash, navigat to the folder where this appication locates and type 'node index.js' to start.
-
-## Contributors
-
-Luwenxi Song
-
-## Contact
-fzl666
-
-sluwenxii@gmaii.com
-
-## License
-
-mit# ReadMe Generator
- 
-## description
+## Description
 
 Fast tool for generating  README files for your projects.
 
