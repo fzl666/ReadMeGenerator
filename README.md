@@ -21,7 +21,7 @@ Luwenxi Song
 
 [GitHub](https://github.com/fzl666)
 
-[E-mail](sluwenxi@gmail.com)
+[E-mail](mailto:sluwenxi@gmail.com)
 
 ## License
 
