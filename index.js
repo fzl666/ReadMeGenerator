@@ -44,28 +44,37 @@ const questions = inquirer
     }
   ])
   .then((response) =>{
-const data = `<!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>Easy Portfolio</title>
-    </head>
-    <body>
-  <div class = "container">
-  <p class="name"> ${response.name}</p>
-  <p class="description"> ${response.description}</p>
-  <p class="installation"> ${response.installation}</p>
-  <p class="usage">  ${response.usage}</p>
-  <p class="contributors"> ${response.contributors}</p>
-  <p class="github">  ${response.github}</p>
-  <p class="email">  ${response.email}</p>
-  <p class="license">  ${response.license}</p>
-  </div>
-  </body>
-  </html>`
+const data = 
+`# ${response.name}
+ 
+## description
+
+${response.description}
+
+## Installation
+
+${response.installation}
+
+## Usage
+
+${response.usage}
+
+## Contributors
+
+${response.contributors}
+
+## Contact
+${response.github}
+
+${response.email}
+
+## License
+
+${response.license}`
+
   
   console.log(data)
-  fs.appendFile('index.html', data, (err) =>
+  fs.appendFile('test.md', data, (err) =>
   err ? console.error(err) : console.log('Success!')
 );
 })
@@ -76,7 +85,7 @@ const data = `<!DOCTYPE html>
 
 // TODO: Create a function to initialize app
 function init(){
-  fs.unlinkSync('index.html') 
+  //fs.unlinkSync('test.md') 
 }
 
 // Function call to initialize app
