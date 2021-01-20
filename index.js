@@ -67,9 +67,7 @@ ${response.contributors}
 
 [GitHub](https://github.com/${response.github})
 
-[E-mai
-  
-  l](${response.email})
+[E-mail](${response.email})
 
 ## License
 
