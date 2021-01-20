@@ -67,9 +67,7 @@ ${response.contributors}
 
 [GitHub](https://github.com/${response.github})
 
-[E-mai
-  
-  l](${response.email})
+[E-mail](mailto:${response.email})
 
 ## License
 
@@ -92,3 +90,4 @@ function init(){
 
 // Function call to initialize app
 init();
+
