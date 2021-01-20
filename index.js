@@ -64,17 +64,19 @@ ${response.usage}
 ${response.contributors}
 
 ## Contact
-${response.github}
 
-${response.email}
+[GitHub](https://github.com/${response.github})
+
+[E-mai
+  
+  l](${response.email})
 
 ## License
 
 ${response.license}`
 
   
-  console.log(data)
-  fs.appendFile('test.md', data, (err) =>
+  fs.appendFile('GeneratedReadMe.md', data, (err) =>
   err ? console.error(err) : console.log('Success!')
 );
 })
